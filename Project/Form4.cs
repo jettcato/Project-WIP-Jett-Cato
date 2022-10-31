@@ -24,5 +24,42 @@ namespace Project
             this.Hide();
 
         }
+
+        private void desertsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chocolateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            chocolateCakePanel.Visible = true;
+            FruitFlavCakePanel.Visible = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nutChocoCLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void FruitFlavToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            chocolateCakePanel.Visible = false;
+            FruitFlavCakePanel.Visible = true;
+        }
     }
 }
